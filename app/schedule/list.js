@@ -1,0 +1,5 @@
+define("lodash",
+	function(_){
+		
+	}
+);
