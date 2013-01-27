@@ -3,12 +3,12 @@ require.config({
 
   // Initialize the application with the main application file and the JamJS
   // generated configuration file.
-  deps: ["main"],
+  deps: ["../libs/text","main"],
 
   paths: {
     // Use the underscore build of Lo-Dash to minimize incompatibilities.
-    "lodash": "../libs/lodash.js"
-
+    "lodash": "../libs/lodash.js",
+		"text": "../libs/text"
     // Put additional paths here.
   },
 
